@@ -127,6 +127,7 @@ table {
 
 - 字型大小微調
 - 行距微調
+- 背景大小以及許多細節
 
 ### Useful resources
 
