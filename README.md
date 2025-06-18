@@ -125,7 +125,8 @@ table {
 
 ### Continued development
 
-none
+- 字型大小微調
+- 行距微調
 
 ### Useful resources
 
@@ -133,6 +134,5 @@ none
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [William Chao](https://portaly.cc/williamchao?fbclid=PAZXh0bgNhZW0CMTEAAaerTevMpujSEXrKTtOsstjc79oAUPzSrLGwrptKCRV3ELV_C0oWufDTx_qy-w_aem_LtblxF4OwNXsI0iZpvIicw)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
