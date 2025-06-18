@@ -12,7 +12,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [My process](#my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
+      - [學習 git 使用](#學習-git-使用)
       - [回憶外部 CSS 連結方式](#回憶外部-css-連結方式)
+      - [CSS Reset](#css-reset)
+      - [糊塗的搞錯語法](#糊塗的搞錯語法)
+      - [a 標籤新分頁](#a-標籤新分頁)
+      - [引入字型](#引入字型)
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
@@ -54,29 +59,85 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+#### 學習 git 使用
+
+- VS Code 內使用從左邊 git 圖示進行 commit 即可
+- src: https://code.visualstudio.com/docs/sourcecontrol/overview
+
 #### 回憶外部 CSS 連結方式
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
+```
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 ```
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
+#### CSS Reset
+
+```
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 ```
 
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
+#### 糊塗的搞錯語法
+
+- img 是在.card 標籤下面，打錯結果沒有吃到 CSS
+
+#### a 標籤新分頁
+
+```
+<a href="url" target="_blank"></a>
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+#### 引入字型
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+去 google font 找需要的字型，並在 header 嵌入（註：Outfit 特別好看）
 
 ### Continued development
 
@@ -86,10 +147,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Font Family: Outfit](https://fonts.google.com/specimen/Outfit) - 非常好看的字型，但還不太會認
 
 ## Author
 
